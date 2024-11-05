@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.btn-coutianer {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(153, 141, 141);
+    padding: 20px;
+    margin: auto;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 40px;
+    background-color: rgb(151, 150, 148);
+
+}
+
+.active {
+    background-color: black;
+    color: white;
+    display: block !important;
+}
